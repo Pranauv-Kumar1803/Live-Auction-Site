@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+     <link href="/loginCumSignup.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+     <div class="partii">
+          <div class="container main--container" id="container" style="z-index: 10;">
+               <div class="signup-page--container sign-up-container">
+                    <form action="#" id="signup-form" method="post" autocomplete="off">
+                         <h2>Join Online Auction Now</h2>
+                         <input type="text" id="name" placeholder="Name *" class="name--inp" required />
+
+                         <input type="email" id="email" placeholder="Email *" class="mail--inp" required />
+
+                         <input type="password" id="password" class="password--inp" placeholder="Password *"
+                              pattern=".{5,50}" required />
+
+                         <input type="password" id="confirmpassword" class="conpassword--inp"
+                              placeholder="Confirm Password *" pattern=".{5,50}" required>
+
+                         <button type="submit" id="submit1">Sign Up</button>
+                    </form>
+               </div>
+
+               <div class="signup-page--container page--container--sigin-in">
+                    <form action="#" id="signin-form" method="post" autocomplete="off">
+                         <h2>Sign in</h2>
+                         <input type="email" id="email" placeholder="Email *" required />
+                         <input type="password" id="password" placeholder="Password *" required />
+                         <button type="submit" id="submit2">Sign In</button>
+                    </form>
+               </div>
+
+               <div class="container--shift">
+                    <div class="overlay">
+                         <div class="panel--right overlay-left">
+                              <h1>Welcome Back!</h1>
+                              <p>login with your details to continue</p>
+                              <button class="ghost" id="signIn">Sign In</button>
+                         </div>
+                         <div class="panel--right overlay-right">
+                              <h1>Join Live Auction</h1>
+                              <p>Enter your details and start your auctioning items now! </p>
+                              <button class="ghost" id="signUp">Sign Up</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <script src="/overlay.js"></script>
+     <script src="/login.js"></script>
+</body>
+
+</html>

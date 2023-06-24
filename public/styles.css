@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(73, 126, 225);
+}
+
+form{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(235, 68, 101);
+    border-radius: 10px;
+    font-size: medium;
+}
+
+#messages{
+    background-color: rgb(129, 87, 183);
+    border-radius: 10px;
+    font-size: medium;
+}
