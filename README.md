@@ -1,7 +1,8 @@
 # Minimal Live Auction Website Code
 
 # Features
-* Live Auction using Socket.io where Users can get Real-Time data of latest bidding.
+* Live Auction using Socket.io where Users can get Real-Time data of latest bidding and can see their own orders/successful biddings.
+* Live Real-Time Timer of 5 minutes for every Item auctioned.
 * JWT authentication and cookies for session management.
 * Adding New Items along with images for auction.
 * Minimal Website layout/starter code made using Bootstrap.
