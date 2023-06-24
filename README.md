@@ -4,7 +4,7 @@
 * Live Auction using Socket.io where Users can get Real-Time data of latest bidding.
 * JWT authentication and cookies for session management.
 * Adding New Items along with images for auction.
-* Minial Website layout made using Bootstrap.
+* Minimal Website layout/starter code made using Bootstrap.
 
 # To start the app
 * Fork this Repo.
